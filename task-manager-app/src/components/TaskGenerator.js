@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import tasks from '../tasks.js';
-
+import tasks from '../tasks';
+import FancyText from './FancyText';
 
 const TaskGenerator = () => {
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
@@ -19,6 +19,7 @@ const TaskGenerator = () => {
         <span>{status}</span>
       </div>
       <button onClick={handleNextTask}>Next Task</button>
+      <FancyText title={false} text="Well done! Push ahead and today will be great!" />
     </div>
   );
 }
