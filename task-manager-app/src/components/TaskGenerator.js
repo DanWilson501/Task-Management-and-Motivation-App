@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import tasks from '../tasks';
 import FancyText from './FancyText';
+import '../styles/TaskGenerator.css';
 
 const TaskGenerator = () => {
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);

@@ -1,0 +1,36 @@
+.task-generator {
+    margin-top: 40px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28284d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .task span {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #8a2be2;
+  }
+  
